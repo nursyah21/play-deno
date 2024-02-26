@@ -5,7 +5,7 @@ import data from "./data.json" assert { type: "json" };
 const router = new Router();
 router
   .get("/", (context) => {
-    context.response.body = "Welcome to dinosaur API!";
+    context.response.body = "hi mom";
   })
   .get("/api", (context) => {
     context.response.body = data;
